@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A86CB0EC1B756CA8008CE061 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86CB0EB1B756CA8008CE061 /* TodoList.swift */; };
 		A89B49301B72BD6A00CD7491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B492F1B72BD6A00CD7491 /* AppDelegate.swift */; };
 		A89B49321B72BD6A00CD7491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B49311B72BD6A00CD7491 /* ViewController.swift */; };
 		A89B49351B72BD6A00CD7491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89B49331B72BD6A00CD7491 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A86CB0EB1B756CA8008CE061 /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		A89B492A1B72BD6A00CD7491 /* MyToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89B492E1B72BD6A00CD7491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A89B492F1B72BD6A00CD7491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				A89B49361B72BD6A00CD7491 /* Images.xcassets */,
 				A89B49381B72BD6A00CD7491 /* LaunchScreen.xib */,
 				A89B492D1B72BD6A00CD7491 /* Supporting Files */,
+				A86CB0EB1B756CA8008CE061 /* TodoList.swift */,
 			);
 			path = MyToDoList;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86CB0EC1B756CA8008CE061 /* TodoList.swift in Sources */,
 				A89B49321B72BD6A00CD7491 /* ViewController.swift in Sources */,
 				A89B49301B72BD6A00CD7491 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				A89B494B1B72BD6A00CD7491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A89B494C1B72BD6A00CD7491 /* Build configuration list for PBXNativeTarget "MyToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				A89B494E1B72BD6A00CD7491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
